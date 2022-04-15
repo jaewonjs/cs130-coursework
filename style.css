@@ -1,12 +1,49 @@
 /* You're welcome to change any of this! */
+/*Import Fonts for each weight*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Chivo', sans-serif;
+}
+
+h1 {
+   font-family: 'Varela Round', sans-serif;
+   text-transform: uppercase;
+   font-size:  2.5em;
+
+}
+
+.f1 {
+   font-weight: 200;
+}
+.f2 {
+   font-weight: 300;
+}
+.f3 {
+   font-weight: 400;
+}
+.f4 {
+   font-weight: 500;
+}
+.f5 {
+   font-weight: 600;
+}
+.f6 {
+   font-weight: 700;
+}
+.f7 {
+   font-weight: 800;
+}
+.f8 {
+   font-weight: 900;
+}
+
 * {
     box-sizing: border-box;
 }
 
-body {
-    margin: 0px;
-    font-family: Arial, sans-serif;
-}
 header, section {
     padding: 20px;
 }
@@ -14,8 +51,26 @@ p, li {
     line-height: 1.5em;
 }
 
+#tutorials {
+    background-color: #ff416c;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#lectures {
+    background-color: #0575e6;
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+
+#homework {
+    background-color: #fffc00;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: #0f9b0f;
     padding-top: 40px;
     padding-bottom: 40px;
 }
