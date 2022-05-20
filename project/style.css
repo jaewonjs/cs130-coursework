@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    outline: 1px solid black;
+    height: 100px;
+    padding-top: 70px;
+    margin-top: 0px;
+}
+
+#navbar {
+    text-align: center;
+    outline: 1px solid black;
+    overflow: hidden;
+    margin: 350px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+#navbar a {
+    margin: 40px;
+}
+
+#home-content, #contact-content {
+    text-align: center;
+}
+
+#about-content {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#bio, #interests {
+    outline: 1px solid black;
+    margin-bottom: 80px;
+}
+
+#project1, #project2, #project3, #project4, #experience1, #experience2, #experience3 {
+    outline: 1px solid black;
+    height: 300px;
+    margin: 50px;
+    text-align: center;
+}
+
+#skills {
+    outline: 1px solid black;
+    list-style-position:inside;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#social-media-links {
+    text-align: center;
+    outline: 1px solid black;
+    margin: 400px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    height: 30px;
+}
