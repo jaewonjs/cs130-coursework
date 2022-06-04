@@ -1,0 +1,225 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    background-color: #F6F6F6;
+}
+
+h1 {
+    text-align: center;
+    outline: 1px solid black;
+    height: 100px;
+    padding-top: 70px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+    font-weight: 620;
+}
+
+#navbar {
+    background-color: #373737;
+    text-align: center;
+    overflow: hidden;
+    margin: 280px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    height: 50px;
+    padding-top: 25px;
+}
+
+#navbar a:hover {
+    color: #bdbdbd;
+}
+
+#navbar a {
+    color: white;
+    width: 100px;
+    padding: 15px;
+    margin: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    font-size: 80%;
+    font-weight: 350;
+    border-radius: 2px;
+}
+
+#home-content, #contact-content {
+    text-align: center;
+}
+
+#home-content h2 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+    font-weight: 550;
+}
+
+#home-content p {
+    margin: 40px;
+    margin-left: 270px;
+    margin-right: 270px;
+    color: #373737;
+}
+
+#about-content {
+    text-align: center;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+#about-content h2, #contact-content h2 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+    font-weight: 620;
+}
+
+#bio, #interests {
+    margin-bottom: 80px;
+}
+
+#project-content {
+    text-align: center;
+}
+
+#project1, #project2, #project3, #project4, #experience1, #experience2, #experience3 {
+    outline: 1px solid black;
+    height: 300px;
+    margin: 50px;
+    margin-top: 0px;
+    text-align: left;
+    background-color: #c1c1c1;
+}
+
+#project1, #project2, #project3, #project4 {
+    display: none;
+}
+
+.collapsible {
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 1325px;
+    color: #F6F6F6;
+    background-color: #3b3b3b;
+    border: none;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+    font-weight: 620;
+}
+
+#project1 section, #project2 section, #project3 section, #project4 section, #experience1 section, #experience2 section, #experience3 section {
+    display: inline-block;
+}
+
+#project-text, #experience-text {
+    margin-left: 50px;
+}
+
+#project1 img, #project2 img, #project3 img, #project4 img, #experience1 img, #experience2 img, #experience3 img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#skills {
+    outline: 1px solid black;
+    background-color: #B5B5B5;
+    list-style-position:inside;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+}
+
+#skills h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+    font-weight: 620;
+}
+
+#social-media-links {
+    text-align: center;
+    background-color: #373737;
+    margin: 400px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    height: 70px;
+    display: block;
+    
+}
+
+#social-media-links img {
+    background-color: white;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    #navbar {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #navbar a {
+        font-size: 75%;
+        margin: 2px;
+    }
+
+    #home-content p, #about-content {
+        margin: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 90%;
+    }
+
+    #social-media-links {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .collapsible {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #project1, #project2, #project3, #project4, #experience1, #experience2, #experience3 {
+        margin-left: 0px;
+        height: 125%;
+        width: 100%;
+    }
+
+    #skills {
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    #project-text, #experience-text {
+        margin-left: 5px;
+        font-size: 90%;
+    }
+
+    #project1 img, #project2 img, #project3 img, #project4 img, #experience1 img, #experience2 img, #experience3 img {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+   
+}
