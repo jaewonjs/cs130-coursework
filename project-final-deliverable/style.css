@@ -80,7 +80,7 @@ h1 {
     margin-bottom: 80px;
 }
 
-#project-content {
+#project-content, #resume-content {
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ h1 {
     outline: 1px solid black;
     height: 300px;
     margin: 50px;
-    margin-top: 0px;
+    margin-top: 40px;
     text-align: left;
     background-color: #c1c1c1;
 }
