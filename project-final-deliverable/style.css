@@ -88,12 +88,12 @@ h1 {
     outline: 1px solid black;
     height: 300px;
     margin: 50px;
-    margin-top: 40px;
     text-align: left;
     background-color: #c1c1c1;
 }
 
 #project1, #project2, #project3, #project4 {
+    margin-top: 0px;
     display: none;
 }
 
